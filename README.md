@@ -2,7 +2,7 @@
 
 Minimal example repo for hyperparameter tuning, with `optuna`, `ray[tune]`, and `syne_tune`.
 
-Due to conflicting dependencies, we install. each library in its own virtual environment.
+Due to conflicting dependencies, we install each library in its own virtual environment.
 
 To create the virtual environments:
 ```bash
