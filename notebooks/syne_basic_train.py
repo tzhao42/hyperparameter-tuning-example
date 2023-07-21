@@ -116,8 +116,7 @@ def train_syne(batch_size, lr, momentum, verbose=True, download=True):
     
     return test_acc
 
-
-if __name__ == "__main__":
+def main():
     parser = ArgumentParser()
     parser.add_argument("--batch_size", type=int)
     parser.add_argument("--lr", type=float)
@@ -125,3 +124,6 @@ if __name__ == "__main__":
     args, _ = parser.parse_known_args()
     
     train_syne(batch_size=args.batch_size, lr=args.lr, momentum=args.momentum, verbose=False, download=False)
+
+if __name__ == "__main__":
+    main()
