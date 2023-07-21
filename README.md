@@ -1,2 +1,2 @@
 # hyperparameter-tuning-example
-Minimal example repo for hyperparameter tuning
+Minimal example repo for hyperparameter tuning.

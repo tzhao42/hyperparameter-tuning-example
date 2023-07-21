@@ -1,0 +1,9 @@
+# Torch 2.0.1
+torch
+torchvision
+torchaudio
+
+matplotlib
+ipykernel
+ipywidgets
+tqdm # To make optuna happy
