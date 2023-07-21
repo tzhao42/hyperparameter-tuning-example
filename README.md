@@ -7,9 +7,7 @@ Due to conflicting dependencies, we install each library in its own virtual envi
 To create the virtual environments:
 ```bash
 cd scripts
-./create_env_optuna.sh
-./create_env_ray.sh
-./create_env_syne.sh
+./create_env_{optuna,ray,syne}.sh
 ```
 
 Examples are located in `notebooks/`. To run a notebook, make sure to launch your Jupyter server in the proper virtual environment.
